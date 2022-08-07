@@ -8,8 +8,8 @@ export const cardData = (initialState = [], action) => {
             return [action.payload, ...initialState];
 
         case REMOVE_TO_CART:
-            console.log("remove--", initialState.pop())
-            return initialState.slice(0,1);
+            initialState.length = initialState.length ? initialState.length-1 : []
+            return [...initialState];
 
         case CLEAR_CART:
             return [];

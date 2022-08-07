@@ -2,6 +2,7 @@ import React from "react";
 import "../components/header.css";
 import { addToCart, removeToCart, clearToCart } from "../redux/action";
 import { useDispatch } from "react-redux";
+import { productList } from "../redux/productAction";
 
 const Main = () => {
     const dispatch = useDispatch();
@@ -31,6 +32,14 @@ const Main = () => {
             >
                 Clear
             </button>
+
+            <button
+                onClick={() => dispatch(productList("hello anil"))}
+                className="button button2"
+            >
+                Get Product
+            </button>
+
         </>
     );
 }

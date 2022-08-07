@@ -6,7 +6,6 @@ import Main from './Main';
 
 const Header = () => {
     const getData = useSelector((state) => state.cardData)
-    console.log("store data--->", getData.length)
     return (
         <>
             <div className="header">
