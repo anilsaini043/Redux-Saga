@@ -1,0 +1,117 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "title": "Nokia Lumia",
+            "brand": "Nokia",
+            "price": 16000,
+            "color": "Grey",
+            "image": "https://m.media-amazon.com/images/I/41Trs-cFMRL.jpg"
+        },
+        {
+            "id": 2,
+            "title": "Samsung Galaxy",
+            "brand": "Samsung",
+            "price": 17500,
+            "color": "Blue",
+            "image": "https://www.vipexon.com/525-home_default/huawei-p20-dummy-phone-non-working-display-model.jpg"
+        },
+
+        {
+            "id": 3,
+            "title": "Iphone-14",
+            "brand": "Apple",
+            "price": 60000,
+            "color": "White",
+            "image": "https://flutter-shop.com/imagefit/resize/555x555//media/sunsky/MPD7842G/MPD7842G_1.jpg"
+        },
+        {
+            "id": 4,
+            "title": "Micromax-In",
+            "brand": "Micromax",
+            "price": 12300,
+            "color": "Red",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRutv4qZ8KoqehWXUtezKhqyULa99I0qXkGpw&usqp=CAU"
+        },
+        {
+            "id": 5,
+            "title": "Iphone-13",
+            "brand": "Apple",
+            "price": 55000,
+            "color": "Space gray",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9g5gjT2XhKvEPcENUJZmPwixwaWfSkrpKWMF6fPzCL7o_DJiausNsUENAkKIdjRtnVwI&usqp=CAU"
+        },
+        {
+            "id": 6,
+            "title": "Mixer",
+            "brand": "Bajaj",
+            "price": 4340,
+            "color": "Red and White",
+            "image": "https://www.reliancedigital.in/medias/Bajaj-Classic-Mixer-Grinder-491281343-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3wzODc5ODB8aW1hZ2UvcG5nfGltYWdlcy9oZWMvaDMwLzg5MzA2ODc3Nzg4NDYucG5nfDU5OTI5YmZmMTQwN2M1NzcwN2EzOTAwY2RiNmJjYTczMDIwNTljOTg0M2QyZjU4NmUwODA3MDI1YmY5MWE3OGE"
+        },
+        {
+            "id": 7,
+            "title": "Mackbook Pro",
+            "brand": "Apple",
+            "price": 130000,
+            "color": "Space gray",
+            "image": "https://www.cnet.com/a/img/resize/60236c4c821e1e1534d9ed6a9ab17da7cf55c6d8/2019/11/12/84e1159c-b8cb-4349-9e3b-3c37cc78945f/36-macbook-pro-16-inch.jpg?auto=webp&fit=crop&height=1200&width=1200"
+        },
+        {
+            "id": 8,
+            "title": "Laptop",
+            "brand": "Dell",
+            "price": 67000,
+            "color": "Silver",
+            "image": "https://i.dell.com/is/image/DellContent/content/dam/images/products/laptops-and-2-in-1s/inspiron/15-3521-non-touch/in3521nt-cnb-05000ff090-bk.psd?fmt=png-alpha&pscan=auto&scl=1&hei=402&wid=606&qlt=100,0&resMode=sharp2&size=606,402"
+        },
+        {
+            "id": 9,
+            "title": "Cap",
+            "brand": "Woodland",
+            "price": 2130,
+            "color": "Orange",
+            "image": "https://images.pexels.com/photos/1124465/pexels-photo-1124465.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+        },
+        {
+            "id": 10,
+            "title": "Shoes",
+            "brand": "Nike",
+            "price": 7400,
+            "color": "Red and Black",
+            "image": "https://4.imimg.com/data4/RE/BI/ANDROID-41682785/product-500x500.jpeg"
+        },
+        {
+            "id": 11,
+            "title": "Shoes",
+            "brand": "Puma",
+            "price": 4500,
+            "color": "Gray",
+            "image": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/107403/01/fnd/IND/fmt/png/PUMA-x-Royal-Challengers-Bangalore-Challenger-Unisex-Sneakers"
+        },
+        {
+            "id": 12,
+            "title": "Shirt",
+            "brand": "John Player",
+            "price": 1700,
+            "color": "White and Black",
+            "image": "https://assets.myntassets.com/fl_progressive/h_960,q_80,w_720/v1/assets/images/2031925/2018/3/6/11520343727179-INVICTUS-Men-Coffee-Brown--Cream-Coloured-Slim-Fit-Checked-Casual-Shirt-7211520343726888-2.jpg"
+        },
+        {
+            "id": 13,
+            "title": "Jeans",
+            "brand": "Levi's",
+            "price": 3200,
+            "color": "Blue",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLd_JQ_bzIv2Gt1dWRJUh5OJOd0KEst9yaGZbJlOirTDyr6KwN4EalCLEj7aluaf8M9Qg&usqp=CAU"
+        },
+        {
+            "id": 14,
+            "title": "T-Shirt",
+            "brand": "Reebok",
+            "price": 2000,
+            "color": "Black",
+            "image": "https://rukminim1.flixcart.com/image/714/857/jt641ow0/t-shirt/r/z/h/m-ec0649-reebok-original-imafekvhdwd7gdg4.jpeg?q=50"
+        }
+    ]
+}

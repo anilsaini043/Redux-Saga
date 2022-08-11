@@ -1,8 +1,9 @@
-import { PRODUCT_LIST } from "./constant";
+import { SET_PRODUCT_LIST } from "./constant";
 
 export const productData = (data=[], action) => {
+    console.log("Product Reduceer--", action)
     switch(action.type){
-        case PRODUCT_LIST:
+        case SET_PRODUCT_LIST:
             return [ action.payload, ...data];
         default:
             return data;

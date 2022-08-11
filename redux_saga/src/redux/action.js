@@ -1,4 +1,4 @@
-import { ADD_TO_CART, REMOVE_TO_CART, CLEAR_CART } from "./constant";
+import { ADD_TO_CART, REMOVE_TO_CART, CLEAR_CART, SEARCH_PRODUCT } from "./constant";
 
 export const addToCart = (data) => {
     return {
@@ -7,14 +7,22 @@ export const addToCart = (data) => {
     }
 }
 
-export const removeToCart = () => {
+export const removeToCart = (id) => {
     return {
-        type: REMOVE_TO_CART
+        type: REMOVE_TO_CART,
+        productId: id
     }
 }
 
 export const clearToCart = () => {
     return {
         type: CLEAR_CART
+    }
+}
+
+export const searchProduct = (query) => {
+    return {
+        type: SEARCH_PRODUCT,
+        query
     }
 }

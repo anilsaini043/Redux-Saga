@@ -1,13 +1,27 @@
+import React, { useEffect } from 'react';
 import './App.css';
 import Header from './components/Header';
-import {useSelector} from "react-redux";
+import { useDispatch } from "react-redux";
+import ProductList from './components/productList';
+import { productList } from './redux/productAction';
+import { Route, Routes } from "react-router-dom";
+import Cart from './components/cart';
 
 function App() {
-  const data = useSelector((state) => state)
-  console.log("allReducer-from STORE-", data)
+  const dispatch = useDispatch();
+
+  useEffect(() => {
+    dispatch(productList())
+  }, [])
+
   return (
     <div className="App">
       <Header />
+      <Routes>
+        <Route path='/' element={<ProductList />} />
+        <Route path='/cartInfo' element={<Cart />} />
+      </Routes>
+
     </div>
   );
 }
